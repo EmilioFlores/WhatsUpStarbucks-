@@ -5,8 +5,7 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"laravel/framework": "5.0.*",
-		"mgp25/whatsapi": "dev-master"
+		"laravel/framework": "5.0.*"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
@@ -42,7 +41,6 @@
 		]
 	},
 	"config": {
-		"preferred-install": "dist"
-	},
-	"minimum-stability": "dev"
+		"preferred-install": "dev"
+	}
 }
