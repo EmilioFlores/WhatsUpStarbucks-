@@ -16893,7 +16893,7 @@ class Carbon extends DateTime
     public static function setLocale($locale)
     {
         static::translator()->setLocale($locale);
-        static::translator()->addResource('array', require '/home/daniel/WhatsUpStarbucks-/vendor/nesbot/carbon/src/Carbon' . '/Lang/' . $locale . '.php', $locale);
+        static::translator()->addResource('array', require '/home/daniel/Documents/Projects/Laravel/WhatsUpStarbucks-/vendor/nesbot/carbon/src/Carbon' . '/Lang/' . $locale . '.php', $locale);
     }
     public function formatLocalized($format)
     {

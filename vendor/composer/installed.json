@@ -2911,5 +2911,55 @@
             "testing",
             "tests"
         ]
+    },
+    {
+        "name": "mgp25/whatsapi",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mgp25/Chat-API.git",
+            "reference": "32e3a8e0cde252c36bf8864f75eb9096dbb4b835"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mgp25/Chat-API/zipball/32e3a8e0cde252c36bf8864f75eb9096dbb4b835",
+            "reference": "32e3a8e0cde252c36bf8864f75eb9096dbb4b835",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-gd": "*",
+            "ext-openssl": "*",
+            "ext-pdo": "*",
+            "ext-sockets": "*",
+            "ext-sqlite3": "*",
+            "php": ">=5.3"
+        },
+        "time": "2015-05-28 19:17:10",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "classmap": [
+                "src/",
+                "src/events"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Chat API Contributing Team",
+                "homepage": "https://github.com/mgp25/Chat-API/graphs/contributors",
+                "role": "Contributors"
+            }
+        ],
+        "description": "The php WhatsApp library ",
+        "keywords": [
+            "whatsapi",
+            "whatsapp"
+        ]
     }
 ]
