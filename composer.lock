@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "57bbfffcb93b5f278443f202d5e5c3dc",
+    "hash": "2c05019d63c99711e14a313788bbed23",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -616,6 +616,54 @@
                 "storage"
             ],
             "time": "2015-03-29 14:01:43"
+        },
+        {
+            "name": "mgp25/whatsapi",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mgp25/Chat-API.git",
+                "reference": "32e3a8e0cde252c36bf8864f75eb9096dbb4b835"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mgp25/Chat-API/zipball/32e3a8e0cde252c36bf8864f75eb9096dbb4b835",
+                "reference": "32e3a8e0cde252c36bf8864f75eb9096dbb4b835",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-gd": "*",
+                "ext-openssl": "*",
+                "ext-pdo": "*",
+                "ext-sockets": "*",
+                "ext-sqlite3": "*",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/",
+                    "src/events"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chat API Contributing Team",
+                    "homepage": "https://github.com/mgp25/Chat-API/graphs/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "The php WhatsApp library ",
+            "keywords": [
+                "whatsapi",
+                "whatsapp"
+            ],
+            "time": "2015-05-28 19:17:10"
         },
         {
             "name": "monolog/monolog",
@@ -2823,8 +2871,10 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "mgp25/whatsapi": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
